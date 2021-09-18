@@ -74,7 +74,7 @@ class LaneDetection:
     
         return frame #return frame is for visualization
 
-    def sliding_left(slef, img):
+    def sliding_left(self, img):
         left_list = []
         '''
         row: starting from y=179 to y=460, moving by 40
@@ -103,7 +103,7 @@ class LaneDetection:
         return left_list
 
     
-    def sliding_right(slef, img):
+    def sliding_right(self, img):
         right_list = []
         '''
         row: starting from x=179 to y=560, moving by 40
